@@ -70,3 +70,38 @@
   color: #402620;
   scale: 1.1;
 }
+
+footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #402620;
+  align-items: center;
+  padding: 30px 0px;
+  color: #bf988a;
+}
+
+footer .container .row {
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .social-icons {
+  font-size: 25px;
+}
+
+footer .social-icons i {
+  color: #bf988a;
+  margin: 0px 5px;
+  margin-top: 20px;
+}
+
+footer .social-icons i:hover {
+  color: #733527;
+}
+
+footer #COPYRIGHT {
+  font-size: 1.1rem;
+  align-items: center;
+  font-weight: 200;
+  opacity: 0.7;
+}
