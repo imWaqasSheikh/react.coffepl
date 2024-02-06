@@ -1,5 +1,7 @@
 import React from "react";
 
+import {FaFacebook, FaSquareXTwitter , FaInstagram , FaWhatsapp, FaRegCopyright} from "react-icons/fa6";
+
 function Footer() {
   return (
     <div id="footer">
@@ -16,24 +18,24 @@ function Footer() {
             <div class="col">
               <div id="COPYRIGHT">
                 <h6>
-                  COPYRIGHT &copy; 2023. ALL RIGHTS RESERVED BY COFFEE PL.{" "}
+                <FaRegCopyright /> 2023. ALL RIGHTS RESERVED BY COFFEE PL.{" "}
                 </h6>
               </div>
             </div>
             <div class="col">
               <div class="social-icons">
                 <a href="#" class="instagram">
-                  <i class="fab fa-instagram"></i>
+                <FaInstagram />
                 </a>
                 <a href="#" class="facebook">
-                  <i class="fab fa-facebook"></i>
+                <FaFacebook />
                 </a>
                 <a href="#" class="twitter">
-                  <i class="fab fa-twitter"></i>
+                <FaSquareXTwitter />
                 </a>
 
                 <a href="https://wa.me/your-phonenumber" class="whatsapp">
-                  <i class="fab fa-whatsapp"></i>
+                <FaWhatsapp />
                 </a>
               </div>
             </div>
